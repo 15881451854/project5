@@ -1,0 +1,186 @@
+.box .describe {
+  padding: 15px 30px 15px 15px;
+  margin: 30px 0;
+  border-left: 3px solid #bbdba1;
+  background-color: #eef7ea;
+}
+.qty{
+  display: inline-block;
+  height: 38px;
+  line-height: 38px;
+  color: #dc3545;
+}
+
+.pageColor:nth-child(2) a{
+  background-color: #007bff;
+  color:white;
+}
+.box .form {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #bbdba1;
+  display: auto;
+}
+
+.box .form .form_head {
+  background-color: #bbdba1;
+  height: 50px;
+  padding-left: 20px;
+  font-size: 20px;
+  line-height: 50px;
+  color: white;
+}
+
+.box .form .form_nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0 0 0;
+}
+
+.box .form .form_search {
+  height: 50px;
+  width: 280px;
+  margin: 0 20px;
+}
+.box .form .form_nav .add{
+  height: 34px;
+}
+.box .form .form_nav .add .addbtn{
+  height: 34px;
+}
+
+
+
+.box .form .form_search input {
+  outline: none;
+}
+
+.box .form .form_search .inp {
+  height: 34px;
+  width: 200px;
+}
+
+.box .form .form_search .btn {
+  height: 34px;
+  width: 80px;
+}
+
+.box .form_page {
+  height: 50px;
+  margin: 0 auto;
+}
+
+.box .form_page .page {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.box .page div {
+  height: 36px;
+  width: 36px;
+  line-height: 36px;
+  text-align: center;
+  border: 1px solid blue;
+  border-left: 0px;
+  color: blue;
+}
+
+.box .page div:first-child {
+  border-left: 1px solid;
+}
+
+.box .page div:first-child {
+  border-left: 1px solid;
+}
+
+.box .form .form_content {
+  /* height: 355px; */
+  padding: 0;
+  overflow: auto;
+}
+
+.last-td {
+  display: flex;
+  justify-content: center;
+}
+input {
+  flex: 1;
+}
+
+th {
+  min-width: 70px;
+}
+
+.yincang {
+  display: none;
+}
+
+.shade{
+	z-index: 100;
+  /* display:none !important; */
+}
+.showBox {
+	  position: relative;
+	  align-self: center;
+	  width: 400px;
+	  height: 600px;
+	  border: 1px solid #ccc;
+	  background: #fff;
+	  z-index: 1000;
+    padding-left: 20px;
+    padding-right: 20px;
+	}
+.showBox h2 {
+  height: 72px;
+  font-size: 30px;
+  padding-left: 10px;
+  line-height: 70px;
+  border-bottom: 1px solid #ccc;
+}
+
+.showBox .ipt {
+   padding-left: 20px;
+ }
+ .showBox .ipt>label {
+    width: 50px;
+    text-align: right;
+    margin-right: 18px;
+  }
+
+.showBox .showBox_b {
+  height: 40px;
+  margin-top:0;
+  padding-left: 90px;
+
+}
+.showBox .showBox_b>input {
+  margin: 10px;
+}
+
+.shade {
+	  position: fixed;
+	  top: 0;
+	  left: 0;
+	  right: 0;
+	  bottom: 0;
+	  background: rgba(0, 0, 0, 0.5);
+	  display: flex;
+	  justify-content: center;
+}
+
+.cancel {
+	  position: absolute;
+	  display: block;
+	  width: 30px;
+	  height: 30px;
+	  right: 5px;
+	  top: 5px;
+	  font-size: 28px;
+	  line-height: 25px;
+	  text-align: center;
+	}
+  .cancel:hover {
+    background: red;
+    color: #fff;
+  }

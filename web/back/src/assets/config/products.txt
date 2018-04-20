@@ -1,0 +1,4 @@
+{
+    "cols": "cnname,enname,title,price,number,category,img,hot",
+    "filterCols": "_id,weight"
+}
